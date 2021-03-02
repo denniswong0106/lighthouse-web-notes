@@ -1,0 +1,94 @@
+Curriculum overview
+  - week 1 && 2: FOCAL
+  - Week 3: Back end
+  - Week 4: Front end
+  - Week 5: data persistence
+  - week 6: Midterms 
+
+Thats' all the stuff we need for the full stack developer
+this is the first half of the course
+
+  - Week 7 - 8: React - the most popular front end currently
+    - React is component based, meaning we can easily translate
+    the skills to other similar front end 
+  - week 9 - 10: Job simulation, Ruby/Rails - we will finish
+  a partially given project. Learn to navigate through folders,
+  etc. How do I learn just enough to get through the project.
+  This is how the industry works.
+  - Week 11- 12: Finals!
+
+  Week 9-10 is only time not using JS!
+
+  There will be 3 tech interviews
+  weeks 2, 4, 9. 
+  
+  Every friday we have exams! instead of lectures.
+
+  Career services from W5 onwards
+
+
+
+Compass: 
+ Dont take it as a source of knowledge, or teaching material. It's more a todo list,
+ a tool to tell us what we are going to do today.
+ Use google to find out the knowledge you need!
+ Watch youtube, read info, docs. Learn to be independent 
+ to find infomation like in real life!
+
+Real life will be like the description in the Compass. Ie. problem
+given by boss - we need a function to do x/y.
+
+ As such, the compass activities will become intentionally
+ more and more vague. So that you can learn to self teach.
+
+
+Problem solving process:
+
+We will work through this process slowly and figure it out.
+
+
+Tips:
+
+use own numbers as array instead of command line arg every time.
+saves us time
+
+for of and for in loops are great!
+
+arrays are great for scaleability. often unlimited === time to use an array
+
+you can think of strings as arrays!
+ie.
+const message = 'hello world'; 
+
+for (const char of message) {
+  console.log(char) // will output each letter
+}
+
+however, you cant use most array methods on strings.
+
+git workflow
+
+end of session
+
+cd into my main directory
+
+git remote -v // will show me my fetch(pull) and push 
+git status // shows me what i changed
+git add . // adds everything down here.
+git status // shows what is commited - do this check to 
+make sure i didn't git add anything i dont want to
+git reset // remove everything added to the working stage
+git push origin master - in work we would always push to our own 
+branch ie bug-fixs , dennis/branch, or things like that
+the origin is the name of where the online repo is -
+ie the remote is named origin 
+if i did git remote add something-else http....
+then git remote -v will show new remote location
+
+if acccidentally commitedsomething, then just reverse what you did,
+then commit again. Easiest way, but try not to commmit a mistake.
+thats why check what you commit prior to committing.
+
+
+
+
