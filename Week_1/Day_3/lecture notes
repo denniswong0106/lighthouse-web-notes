@@ -1,0 +1,104 @@
+Objects!
+
+review primitives
+
+numbers
+boolean
+null
+string
+undefined
+NaN
+bigInteger - tells js to store this integer as a very big
+ integer.
+
+ myBigInt = 73984924902n; denotes this is large number,
+ store it as such
+
+
+ const mySym = Symbol('hello'); 
+ not used, but it exist
+
+ so Number.MAX_SAFE_INTEGER = 9 quadrillion.
+ beyond this, program cannot tell the difference beyound 
+ this number so 10 quadrillion === 9 quadrillion and a bit.
+
+ primitives cannot be modified
+ so 
+ let str = 'hello'
+
+ str = 'bye' 
+
+ the data, hello, is removed. thrown away, in the garbage.
+
+ The rest of data are Objects!
+
+ so arrays are objects, functions are objects.
+
+Objects
+
+ Objects are made up of key value pairs.
+ This is what we have been doing the whole time
+ car = 'fast' example. 
+
+ objects, we can dot into it
+ like console.log
+
+
+So what is an object?
+ A collection of values accessed by key
+ ie. an array of values accessed by index
+ hence an array is a type of object.
+
+ keys are always strings.
+
+ obj = {};
+ so [] is like at; you look in object at, 
+ so if i did
+ object['hello'] = 'hi!'
+
+ the code will lookup the key hello in obj, and because there
+ isn't that key in the object. 
+
+ dot notation is only used to see the value if you know 
+ the data. so obj.hello would work if it already exists.
+
+ so when calling variables as key value pair names,
+ you would likely have to call as [];
+
+ so str = 'hello'
+
+ obj.str // doesn't work
+ obj[str] would call value 'hi!'
+
+ so if you are calling variables into dot notation it won't
+ work!
+
+iterating in objects
+for of loops don't work for objects - no index to loop through
+
+for in, however works great!
+
+for in for arrays, for example, you can get index of array
+for objects, we use for in, it will give each key all
+object value-key pairs.
+
+let test = obj.notAKey or obj[notAKey]
+will output undefined, which is falsey, very useful.! 
+
+use for.. of with everything except obj, because of and obj start with 'o';
+
+
+
+Pass primitive and objects to functions
+ primitive data, when put in as data into parameter of function,
+ will create a copy, but not mutate the data itself.
+
+ with objects, if we put object as parameter, it calls the 
+ object reference rather than a copy of the object.
+
+Function inside an object
+ use the 'this' to reference the object itelf!
+ typically use it inside functions 
+
+
+
