@@ -1,0 +1,104 @@
+## Callbacks!
+
+review values in JS
+using functions as values
+
+everything is a key value pair
+
+const str = 'string' 
+const bool = true; 
+and so on
+
+with a function...
+
+example
+
+const sayHello = function(name) {
+  console.log(`hello ${name}`);
+}
+
+const otherFunc = sayHello; 
+
+//note that this is sayHello, not:
+
+const otherFunc = sayHello();
+
+sayHello is the function itself, sayHello();
+
+so const otherFunc = sayHello; links/references otherFunc to the same
+stored location of sayHello. 
+
+This works in the same way as a primitive value:
+
+ie 
+const myAge = 39;
+const anotherAge = myAge;
+
+console.log(myAge);
+console.log(anotherAge);
+//both return the same value
+
+the functions are stored in memory, and the key is assigned 
+as a way to access that stored function. 
+so const otherFunc = sayHello is just creating a new key for
+accessing the same function in memory.
+
+functions ass objects
+
+const sayHello = fucntion (name) {
+  console.log('Hello');
+}
+
+sayHello.test = 'woah'
+
+Callback functions 
+We can pass a function as a parameter within a function, where the
+parameter function gets invoked 
+
+A function taht we pas to another function to be invoked by that function
+
+make sure the function is passed in, not the function invoked. ie so 
+paraFunc not paraFunc();
+
+
+anonyamous function
+
+we can use these inline
+
+so instead of:
+
+const testFunc = function () {
+  console.log ('hello')
+};
+
+const runMyFunc = function (paraFunc) {
+  paraFunc();
+}
+
+runMyFunc(testFunc)
+
+however, if we don't feel we need to name the function,
+we can just pass the function directly into the function
+
+ie. 
+
+const runMyFunc(function() {
+  console.log('hello')
+});
+
+Arrow Syntax
+
+const sayHello = () => {
+  console.log();
+}
+
+Array Methods
+
+Map: tahes in array, returns array of equal size
+Filter: takes in array, returns only elements that we want
+forEach: take in an array, and iterates through it
+
+bad practice - wouldn't pass an invoked function into a function?
+
+
+
