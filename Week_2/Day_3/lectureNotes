@@ -1,0 +1,14 @@
+## what is the internet?
+
+Using postal service as an anology.
+
+the address = IP adress;
+
+internet - we hear of packets.
+what packets is is just data split into smaller chunks
+
+so for example, data is cut into many pieces of packets
+
+the recieving pc will take all the packets and repiece them back together
+
+note that the packets may take different routes to another IP address

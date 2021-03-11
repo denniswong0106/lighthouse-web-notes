@@ -12,4 +12,7 @@ For more information, please check [my profile](https://github.com/denniswong010
   * [Day 3](/Week_1/Day_3)
   * [Day 4](/Week_1/Day_4)
 * [Week 2](/Week_2)
-  *[Day 2](/Week_2/Day_1)
+  * [Day 2](/Week_2/Day_1)
+  * [Day 2](/Week_2/Day_2)
+  * [Day 3](/Week_2/Day_3)
+  * [Day 3](/Week_2/Day_3)

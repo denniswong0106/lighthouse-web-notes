@@ -4,3 +4,71 @@
 
 #Exporting and importing code
 
+#Intro into NPM
+
+
+### Test driven development
+
+- Daily workflow 
+We might write some code, check it, write code,
+check it, and so forth. 
+
+But we would, at a big company,
+
+would often do test driven development!
+
+We would write code that compares what values
+
+you want versus the output of the code.
+
+We use a process of red-green-refactor.
+
+When the test is done, you would run test,
+and all your tests are red. As you create
+your code, you would start gettting greens (test passing).
+
+Then, after your greens, you can refactor, 
+allows you to improve your code without 'breaking' the code.
+
+Thats when it makes sense to use test driven development,
+as it allows us to catch bugs that we wouldn't have seen otherwise
+
+Basically, Test-driven development is good longterm,
+as it still works the larger and bigger your project is.
+
+BDD => behaviour driven development 
+focused upon user use rather than our own errors etc.
+Usually won't 'push' us to write better code.
+### Making assertions
+
+an Example:
+
+
+let assert = require('assert')
+//so assert is built into node, but we need the require call
+//to be albe to access assert functions
+//note that assert isn't a module, its directly built into 
+//node. Assert isn't a module. It's more an inbuilt file that I need
+//tell node I need to use it, as it doesn't default use.
+
+const output = 'hello';
+
+assert(output == 'hellow world');
+//Assertion Error!
+
+### Package.json file
+
+This file describes the bits and pieces of this project app I am building.
+
+npm init
+
+This fills in the package.json file, and I give it the info
+
+Look up 10:15 on video - something about npm install i missed
+
+
+
+
+
+
+

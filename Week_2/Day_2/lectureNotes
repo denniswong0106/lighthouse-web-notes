@@ -1,0 +1,19 @@
+## Async coding
+
+in Async code, the put aside code will always run
+after the initial code is run. 
+
+So all the initial code runs first, then
+the async code will run.
+
+so if your main file (the main thread), gets 
+blocked by a slow function, the rest of the file won't 
+execute, so your async functions won't eval until you hit bottom of the file,
+even if your async files are already 'done'.
+
+so eval flow:
+
+-> main code
+-----
+-> scheduled code
+
